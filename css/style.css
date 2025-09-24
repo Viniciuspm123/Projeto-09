@@ -178,7 +178,7 @@ main {
                     }
                 }
             
-                  & .button {
+                    & .button {
                         background-color: #141A26;
                         color: #fff;
                         border-radius: 4px;
@@ -186,8 +186,14 @@ main {
                         cursor: pointer;
                         border: none;
                         padding: 15px;
+                      
                     }
-            
+                    & .button:hover {
+                        background-color: white;
+                        color: black;
+                        border: 1px solid black;
+                        transition: 0.5s;
+                    }
             }
 
         }
@@ -200,4 +206,5 @@ main {
     padding: 20px;
     font-size: 14.88px;
     text-align: center ;
+
  }
